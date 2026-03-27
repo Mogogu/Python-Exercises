@@ -1,3 +1,4 @@
+#Second exercise. To learn about the input
 n = input('Digite algo: ')
 print (type(n))
 print('É número?', (n).isnumeric())
