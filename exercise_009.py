@@ -1,11 +1,8 @@
-#This exercise is to convert one value in meters, input from the user, to different measures of the same category
+# a code created to show the user how many liters of paint he need to cover a wall
+# the user defines how tall and large is the wall and the program return the liters of paint
 
-print('Para saber quantos metros são em conversão de outras medidas.')
-nb1 = float(input('Digite o valor em metros:'))
-nbkm = nb1/1000
-nbhm = nb1/100
-nbdam = nb1/10
-nbdm = nb1*10
-nbcm = nb1*100
-nbmm = nb1*1000
-print('Os valores obtidos são: {}km, {}hm, {}dam, {}m, {}dm, {}cm, {}mm'.format(nbkm, nbhm, nbdam, nb1, nbdm, nbcm, nbmm))
+print('Para saber a área total de uma parede, e o quanto de tinta precisa para pintar, responda:')
+ne1 = float(input('Quantos metros tem a largura da parede?'))
+ne2 = float(input('Quantos metros tem a altura da parede?'))
+ne3 = 2**2
+print('Sua parede tem', ne1*ne2, 'e precisará de:', (ne1*ne2)/ne3, 'litros de tinta.')
