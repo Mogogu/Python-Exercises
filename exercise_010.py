@@ -1,6 +1,6 @@
 # an exercise that shows the value of an item after 5% discount
 
-print('Para calcular um desconto de 5% sobre o valor de um item/objetivo:')
+print('Para calcular um desconto de 5% sobre o valor de um item/objeto:')
 nf1 = float(input('Qual o preço do item?'))
 nf2 = (nf1/100) * 5
 nf3 = nf1-nf2
