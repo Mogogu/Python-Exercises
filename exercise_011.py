@@ -1,5 +1,7 @@
-# conversion of real (BRL) to dolar (USD) where USD = 3.30BRL
+# an exercise that shows the increase of 15% in the monthly payment
 
-print('Para descobrir quantos dólares você compra com um valor em real, na cotação de 3,30 o dólar')
-nd1 = float(input('Digite o valor em real:'))
-print (nd1/3.30)
+print('Para descobrir um aumento no seu salário')
+ng1 = float(input('Digite o valor de seu salário mensal:'))
+ng2 = (ng1/100)*15
+ng3 = ng1 + ng2
+print('O aumento de 15% no seu salário, equivale à {:.2f}, e o novo total é {:.2f}'.format(ng2, ng3))
